@@ -1,0 +1,28 @@
+# Ignore bundler config.
+/.bundle
+
+# ignore settings
+/.env
+/config/settings.yml
+/REVISION
+
+# Ignore all logfiles and tempfiles.
+/log
+/tmp
+!/tmp/guard/.keep
+.*.swp
+.guard_result
+
+# RubyMine IDE
+/.idea
+
+# Visual Studio Code
+/.vscode
+
+# #Mac OS/X
+.DS_Store
+
+# temporary files for dev
+/config/initializers/console.rb
+/coverage
+/json
